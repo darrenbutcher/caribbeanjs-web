@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     // Initialize Fathom when the app loads
     Fathom.load(process.env.NEXT_PUBLIC_FATHOM_SITE_ID, {
-      includedDomains: ['caribbeanjs.org', 'www.caribbeanjs.org'],
+      includedDomains: ['caribbeanjs.org'],
     })
 
     function onRouteChangeComplete() {
