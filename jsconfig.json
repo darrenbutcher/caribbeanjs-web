@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/atoms/*": ["components/atoms/*"],
+      "@/atoms": ["components/atoms/index.js"],
+      "@/layouts/*": ["components/layouts/*"],
+      "@/layouts": ["components/layouts/index.js"],
+      "@/molecules/*": ["components/molecules/*"],
+      "@/molecules": ["components/molecules/index.js"],
+      "@/organisms/*": ["components/organisms/*"],
+      "@/organisms": ["components/organisms/index.js"],
+      "@/styles/*": ["styles/*"],
+    }
+  }
+}
