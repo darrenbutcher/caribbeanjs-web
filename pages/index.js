@@ -23,7 +23,7 @@ export default function Home({ colorSelection }) {
         description: 'Online Community for JavaScript developers in the Caribbean',
         images: [
           {
-            url: 'https://caribbeanjs.org/cjs-og.png',
+            url: 'https://caribbeanjs.org/cjs-og-alt.png',
             width: 1280,
             height: 720,
             alt: 'Caribbean'
