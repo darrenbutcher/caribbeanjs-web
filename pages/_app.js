@@ -11,7 +11,7 @@ const usePreEffect = (fn) => {
 
 function MyApp({ Component, pageProps }) {
   const [colors, setColor] = useState(['red', 'yellow', 'green', 'blue', 'indigo', 'purple', 'pink', 'black'])
-  const [selectedColor, setSelectedColor] = useState('red')
+  const [selectedColor, setSelectedColor] = useState('black')
   const router = useRouter()
 
   useEffect(() => {
